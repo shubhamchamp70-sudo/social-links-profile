@@ -1,0 +1,84 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color:hsl(0, 0%, 8%);
+  min-height: 100vh;
+  font-family: sans-serif;
+  display: grid;
+  place-content: center;
+}
+
+.img{
+
+  background-color: hsl(0, 0%, 12%);
+  color: hsl(0, 0%, 100%);
+  padding: 2rem;
+  margin: 1rem;
+  max-width: 400px;
+  text-align: center;
+  border-radius: .75rem;
+
+}
+
+.img img{
+  margin-bottom: .5rem;
+  width: 75px;
+  border-radius: 50%;
+}
+
+
+h1{
+  color:hsl(0, 0%, 100%);
+  font-size: 1.75rem;
+
+}
+ul{
+  margin-top: 1.75rem;
+}
+  
+
+
+
+
+.options{
+  text-align: center;
+  padding: 5px;
+  color:  hsl(0, 0%, 100%);
+}
+.about{
+  padding: 5px;
+  text-align: center;
+  color:hsl(0, 0%, 100%) ;
+}
+.from{
+  color:greenyellow;
+  margin: .5rem 0 1.5rem;
+  font-weight: 700;
+} 
+ul li:not(:last-child){
+  margin-bottom: 1rem;
+  list-style-type: none;
+  
+}
+
+ul li a{
+  display: block;
+  background-color: hsl(0, 0%, 20%);
+  color:hsl(0, 0%, 100%) ;
+  text-decoration: none;
+  padding: 1rem;
+  font-weight: 600;
+  border-radius: .5rem;
+
+  
+  
+}
+
+ul li a:hover{
+  background-color: greenyellow;
+  color: hsl(0, 0%, 12%);
+
+}
